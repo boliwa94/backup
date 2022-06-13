@@ -1,0 +1,18 @@
+
+HomeworkManagementFinalプロジェクトソースを送付します。
+
+簡単なSQLの場合、xmlではなく、アノテーション（@Selectなど）を使ってもよいです。
+例：
+public interface StudentMapper {
+    @Select("SELECT * FROM student WHERE id = #{id};")
+    User getStudent(int id);
+
+    @Update("UPDATE student SET token = #{token} WHERE id = #{id};")
+    void updateToken(User user);
+
+    @Insert("INSERT INTO student(id, name, password) VALUES (#{id}, #{name}, #{password});")
+    void register(int id, String name, String password);
+}
+上記例の格納場所：HomeworkManagementFinal\src\main\java\com\bjtu\dsy\homeworkmanagement\mapper
+
+以上
