@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/example/demo/controller/UserController.java" charset="Shift_JIS" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/example/demo/dto/UserSearchRequest.java" charset="Shift_JIS" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/example/demo/entity/User.java" charset="Shift_JIS" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/example/demo/repository/UserMapper.java" charset="Shift_JIS" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/example/demo/service/UserService.java" charset="Shift_JIS" />
+  </component>
+</project>
